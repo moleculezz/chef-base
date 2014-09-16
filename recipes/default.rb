@@ -17,5 +17,5 @@ include_recipe "sudo"
 
 # create users from data bag that exist in the sudo group
 users_manage "sudo" do
-  group_id 27
+  group_id node.etc.group.sudo.gid
 end
