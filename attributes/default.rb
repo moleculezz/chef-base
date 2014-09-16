@@ -19,10 +19,10 @@
 # limitations under the License.
 #
 
-default['ntp']['servers'] = ["0.pool.ntp.org", "1.pool.ntp.org", "2.pool.ntp.org"]
-default['authorization']['sudo']['groups'] = ["sudo"]
-default['authorization']['sudo']['users'] = ["gd", "aross"]
-default['authorization']['sudo']['sudoers_defaults'] = [
+default.ntp.servers = ["0.pool.ntp.org", "1.pool.ntp.org", "2.pool.ntp.org"]
+
+default.authorization.sudo.groups = ["sudo"]
+default.authorization.sudo.sudoers_defaults = [
   '!lecture,tty_tickets,!fqdn',
   'env_reset',
   'secure_path="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"'
