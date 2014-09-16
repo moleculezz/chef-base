@@ -13,7 +13,7 @@ DEPENDENCIES
 GRAPH
   ack (1.0.2)
   apt (2.3.4)
-  base (1.0.1)
+  base (1.1.0)
     ack (>= 0.0.0)
     apt (>= 0.0.0)
     chef-client (>= 0.0.0)
