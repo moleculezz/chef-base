@@ -13,10 +13,9 @@ include_recipe "chef-client::delete_validation"
 include_recipe "htop"
 include_recipe "ack"
 include_recipe "ntp"
+include_recipe "sudo"
 
 # create users from data bag that exist in the sudo group
 users_manage "sudo" do
   group_id 27
 end
-
-include_recipe "sudo"
