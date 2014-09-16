@@ -11,6 +11,7 @@
 include_recipe "apt"
 include_recipe "chef-client::delete_validation"
 include_recipe "htop"
+include_recipe "ack"
 include_recipe "ntp"
 
 # create users from data bag that exist in the sudo group

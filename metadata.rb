@@ -8,6 +8,7 @@ version          '1.0.1'
 
 depends "apt"
 depends "htop"
+depends "ack"
 depends "ntp"
 depends "chef-client"
 depends "users"
