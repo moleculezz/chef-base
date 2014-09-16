@@ -10,7 +10,7 @@ platforms:
   - name: debian-7.6
 
 suites:
-  - name: default
+  - name: base
     data_bags_path: "test/integration/default/data_bags"
     run_list:
       - recipe[base::default]
