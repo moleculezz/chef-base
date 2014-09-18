@@ -15,6 +15,8 @@ include_recipe "ack"
 include_recipe "ntp"
 include_recipe "sudo"
 
+package "bash-completion"
+
 # create users from data bag that exist in the sudo group
 users_manage "sudo" do
   group_id node.etc.group.sudo.gid
