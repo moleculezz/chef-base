@@ -7,7 +7,7 @@ provisioner:
 
 platforms:
   - name: ubuntu-14.04
-  - name: debian-7.6
+  - name: debian-7.8
 
 suites:
   - name: base
